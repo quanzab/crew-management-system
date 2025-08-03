@@ -4,7 +4,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 
 FOLDER_ID = '1FznsPANU4xNXHIlkdcJh_y-YXEdbG-do'
-FILENAME = 'Crew Management System (CMS).zip'
+FILENAME = 'cms.zip'
 
 creds = service_account.Credentials.from_service_account_file('service_account.json')
 service = build('drive', 'v3', credentials=creds)
